@@ -1,0 +1,284 @@
+{
+  "@context" : {
+    "URL" : {
+      "@id" : "https://schema.org/URL"
+    },
+    "recordedIn" : {
+      "@id" : "https://schema.org/recordedIn",
+      "@type" : "@id"
+    },
+    "affiliation" : {
+      "@id" : "https://schema.org/affiliation",
+      "@type" : "@id"
+    },
+    "honoricPrefix" : {
+      "@id" : "https://schema.org/honoricPrefix"
+    },
+    "term_status" : {
+      "@id" : "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"
+    },
+    "DataType" : {
+      "@id" : "https://schema.org/DataType"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "pageStart" : {
+      "@id" : "https://schema.org/pageStart"
+    },
+    "ResearchMethod" : {
+      "@id" : "https://bmake.th-brandenburg.de/spv#ResearchMethod"
+    },
+    "license" : {
+      "@id" : "http://creativecommons.org/ns#license"
+    },
+    "url" : {
+      "@id" : "https://schema.org/url",
+      "@type" : "@id"
+    },
+    "string" : {
+      "@id" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "dateCreated" : {
+      "@id" : "https://schema.org/dateCreated"
+    },
+    "citation" : {
+      "@id" : "https://schema.org/citation",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "pageEnd" : {
+      "@id" : "https://schema.org/pageEnd"
+    },
+    "alternativeHeadline" : {
+      "@id" : "https://schema.org/alternativeHeadline"
+    },
+    "Organization" : {
+      "@id" : "https://schema.org/Organization"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/elements/1.1/issued"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "dateModified" : {
+      "@id" : "https://schema.org/dateModified"
+    },
+    "ScholarlyArticle" : {
+      "@id" : "https://schema.org/ScholarlyArticle"
+    },
+    "image" : {
+      "@id" : "https://schema.org/image"
+    },
+    "ResearchArtifact" : {
+      "@id" : "https://bmake.th-brandenburg.de/spv#ResearchArtifact"
+    },
+    "faxNumber" : {
+      "@id" : "https://schema.org/faxNumber"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "author" : {
+      "@id" : "https://schema.org/author",
+      "@type" : "@id"
+    },
+    "isPartOf" : {
+      "@id" : "https://schema.org/isPartOf",
+      "@type" : "@id"
+    },
+    "familyName" : {
+      "@id" : "https://schema.org/familyName"
+    },
+    "about" : {
+      "@id" : "https://schema.org/about",
+      "@type" : "@id"
+    },
+    "ResearchActionType" : {
+      "@id" : "https://bmake.th-brandenburg.de/spv#ResearchActionType"
+    },
+    "ResearchMethods" : {
+      "@id" : "https://bmake.th-brandenburg.de/spv#ResearchMethods"
+    },
+    "email" : {
+      "@id" : "https://schema.org/email"
+    },
+    "Event" : {
+      "@id" : "https://schema.org/Event"
+    },
+    "ItemList" : {
+      "@id" : "https://schema.org/ItemList"
+    },
+    "researchArtifact" : {
+      "@id" : "https://bmake.th-brandenburg.de/spv#researchArtifact",
+      "@type" : "@id"
+    },
+    "Person" : {
+      "@id" : "https://schema.org/Person"
+    },
+    "Date" : {
+      "@id" : "https://schema.org/Date"
+    },
+    "attendee" : {
+      "@id" : "https://schema.org/attendee",
+      "@type" : "@id"
+    },
+    "Critique" : {
+      "@id" : "https://bmake.th-brandenburg.de/spv#Critique"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "givenName" : {
+      "@id" : "https://schema.org/givenName"
+    },
+    "name" : {
+      "@id" : "https://schema.org/name"
+    },
+    "StructuredValue" : {
+      "@id" : "https://schema.org/StructuredValue"
+    },
+    "startTime" : {
+      "@id" : "https://schema.org/startTime"
+    },
+    "FutureWork" : {
+      "@id" : "https://bmake.th-brandenburg.de/spv#FutureWork"
+    },
+    "location" : {
+      "@id" : "https://schema.org/location",
+      "@type" : "@id"
+    },
+    "organizer" : {
+      "@id" : "https://schema.org/organizer",
+      "@type" : "@id"
+    },
+    "CreativeWork" : {
+      "@id" : "https://schema.org/CreativeWork"
+    },
+    "rights" : {
+      "@id" : "http://purl.org/dc/elements/1.1/rights"
+    },
+    "text" : {
+      "@id" : "https://schema.org/text"
+    },
+    "inLanguage" : {
+      "@id" : "https://schema.org/inLanguage"
+    },
+    "PublicationEvent" : {
+      "@id" : "https://schema.org/PublicationEvent"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "telephone" : {
+      "@id" : "https://schema.org/telephone"
+    },
+    "Place" : {
+      "@id" : "https://schema.org/Place"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "keywords" : {
+      "@id" : "https://schema.org/keywords"
+    },
+    "CreativeWorkSeries" : {
+      "@id" : "https://schema.org/CreativeWorkSeries"
+    },
+    "jobTitle" : {
+      "@id" : "https://schema.org/jobTitle"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "award" : {
+      "@id" : "https://schema.org/award"
+    },
+    "publisher" : {
+      "@id" : "https://schema.org/publisher",
+      "@type" : "@id"
+    },
+    "Vocabulary" : {
+      "@id" : "http://purl.org/vocommons/voaf#Vocabulary"
+    },
+    "honoricSuffix" : {
+      "@id" : "https://schema.org/honoricSuffix"
+    },
+    "modified" : {
+      "@id" : "http://purl.org/dc/elements/1.1/modified"
+    },
+    "legalName" : {
+      "@id" : "https://schema.org/legalName"
+    },
+    "researchActionType" : {
+      "@id" : "https://bmake.th-brandenburg.de/spv#researchActionType",
+      "@type" : "@id"
+    },
+    "logo" : {
+      "@id" : "https://schema.org/logo"
+    },
+    "Text" : {
+      "@id" : "https://schema.org/Text"
+    },
+    "Language" : {
+      "@id" : "https://schema.org/Language"
+    },
+    "endTime" : {
+      "@id" : "https://schema.org/endTime"
+    },
+    "sameAs" : {
+      "@id" : "https://schema.org/sameAs"
+    },
+    "Enumeration" : {
+      "@id" : "https://schema.org/Enumeration"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "ResearchObjectives" : {
+      "@id" : "https://bmake.th-brandenburg.de/spv#ResearchObjectives"
+    },
+    "contributor" : {
+      "@id" : "https://schema.org/contributor",
+      "@type" : "@id"
+    },
+    "ResearchObjective" : {
+      "@id" : "https://bmake.th-brandenburg.de/spv#ResearchObjective"
+    },
+    "itemListElement" : {
+      "@id" : "https://schema.org/itemListElement",
+      "@type" : "@id"
+    },
+    "Intangible" : {
+      "@id" : "https://schema.org/Intangible"
+    },
+    "alternateName" : {
+      "@id" : "https://schema.org/alternateName"
+    },
+    "additionalName" : {
+      "@id" : "https://schema.org/additionalName"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "description" : {
+      "@id" : "https://schema.org/description"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "ResearchFindings" : {
+      "@id" : "https://bmake.th-brandenburg.de/spv#ResearchFindings"
+    },
+    "headline" : {
+      "@id" : "https://schema.org/headline"
+    },
+    "DateTime" : {
+      "@id" : "https://schema.org/DateTime"
+    },
+    "editor" : {
+      "@id" : "https://schema.org/editor",
+      "@type" : "@id"
+    }
+  }
+}

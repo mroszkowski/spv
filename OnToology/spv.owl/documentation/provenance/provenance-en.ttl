@@ -1,0 +1,9 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<..\index-en.html> a prov:Entity;
+	 dc:title "Scholarly Papers Vocabulary with Focus on Qualtitative Analysis";
+	 prov:wasAttributedTo <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/>;
+	 dc:creator <https://www.th-brandenburg.de/mitarbeiterseiten/fbw/vera-meister/>;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+.
