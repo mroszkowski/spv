@@ -1,0 +1,26 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "spv:ResearchObjective" "schema:URL" "schema:Event" "schema:CreativeWork" "schema:Text" "spv:ResearchObjectives" "schema:ItemList" "schema:Intangible" "spv:ResearchActionType" "spv:ResearchArtifact" "spv:ResearchMethods" "schema:Date" "spv:ResearchMethod" "schema:Enumeration" "schema:CreativeWorkSeries" "schema:ScholarlyArticle" "spv:FutureWork" "schema:Language" "spv:ResearchFindings" "schema:DateTime" "schema:DataType" "spv:Critique" "schema:PublicationEvent" "schema:StructuredValue" ; /*classes style*/
+	"schema:CreativeWorkSeries" -> "schema:CreativeWork" [ label = "rdfs:subClassOf" ];
+	"schema:Date" -> "schema:DataType" [ label = "rdfs:subClassOf" ];
+	"schema:DateTime" -> "schema:DataType" [ label = "rdfs:subClassOf" ];
+	"schema:Text" -> "schema:DataType" [ label = "rdfs:subClassOf" ];
+	"schema:ScholarlyArticle" -> "schema:CreativeWork" [ label = "rdfs:subClassOf" ];
+	"schema:StructuredValue" -> "schema:Intangible" [ label = "rdfs:subClassOf" ];
+	"schema:URL" -> "schema:Text" [ label = "rdfs:subClassOf" ];
+	"spv:ResearchMethods" -> "schema:ItemList" [ label = "rdfs:subClassOf" ];
+	"spv:ResearchFindings" -> "schema:ItemList" [ label = "rdfs:subClassOf" ];
+	"spv:Critique" -> "schema:ItemList" [ label = "rdfs:subClassOf" ];
+	"spv:ResearchMethod" -> "schema:Enumeration" [ label = "rdfs:subClassOf" ];
+	"spv:ResearchObjective" -> "schema:StructuredValue" [ label = "rdfs:subClassOf" ];
+	"schema:PublicationEvent" -> "schema:Event" [ label = "rdfs:subClassOf" ];
+	"spv:ResearchActionType" -> "schema:Enumeration" [ label = "rdfs:subClassOf" ];
+	"spv:ResearchArtifact" -> "schema:Enumeration" [ label = "rdfs:subClassOf" ];
+	"schema:Language" -> "schema:Intangible" [ label = "rdfs:subClassOf" ];
+	"schema:ItemList" -> "schema:Intangible" [ label = "rdfs:subClassOf" ];
+	"spv:FutureWork" -> "schema:ItemList" [ label = "rdfs:subClassOf" ];
+	"schema:Enumeration" -> "schema:Intangible" [ label = "rdfs:subClassOf" ];
+	"spv:ResearchObjectives" -> "schema:ItemList" [ label = "rdfs:subClassOf" ];
+
+}
